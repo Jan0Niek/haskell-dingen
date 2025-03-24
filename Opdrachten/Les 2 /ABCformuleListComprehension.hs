@@ -1,0 +1,2 @@
+module ABCformuleListComprehension where
+c = 
