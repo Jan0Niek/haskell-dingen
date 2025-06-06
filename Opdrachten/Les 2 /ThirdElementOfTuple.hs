@@ -1,2 +1,4 @@
 module ThirdElementOfTuple where
-third = []!!2
+
+third :: (a, b, c) -> c
+third (a, b, c) = c
