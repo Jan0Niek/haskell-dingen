@@ -10,4 +10,4 @@ findthexing a b c = (findx1 a b c, findx2 a b c)
 listToSolve = [(2, 6, 2), (-1, 3, 3), (2, 6, 2), (-1, 3, 3), (2, 6, 2), (-1, 3, 3), (2, 6, 2), (-1, 3, 3), (2, 6, 2), (-1, 3, 3)]
 
 solves = [(x1, x2) | (x1, x2) <- findthexing(listToSolve..)]
--- en toen had ik genoeg van list comprehension proberen te fiksen
+-- . . .
